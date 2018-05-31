@@ -1,0 +1,8 @@
+Pistruiatul;Comedie;1980;10002;https://www.youtube.com/watch?v=SqGewEjmMKM;10;
+Jumanji;Aventura;2017;909090;https://www.youtube.com/watch?v=2QKg5SZ_35I;20;
+Jigsaw;Horror;2000;20000;https://www.youtube.com/watch?v=UJjV4BJ3iZM;30;
+Jigsaw Legacy;Horror;2018;55552;https://www.youtube.com/watch?v=vPP6aIw1vgY;15;
+StarWars;SF;1982;12345;https://www.youtube.com/watch?v=DAi3GgwhDR0;22;
+Spiderman;Animatie;2011;22222;https://www.youtube.com/watch?v=95Pm1E1hMQU;11;
+Fast and furious 8;Actiune;2017;12302;https://www.youtube.com/watch?v=uisBaTkQAEs;111;
+Hard to kill;Actiune;2003;2003;https://www.youtube.com/watch?v=vwb8S2NTnD0;23;

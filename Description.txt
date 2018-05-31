@@ -1,0 +1,55 @@
+So many movies, so little time… To make sure you do not miss any good movies, you absolutely need a
+software application to help you manage your films and create watch lists. The application can be used
+in two modes: administrator and user. When the application is started, it will offer the option to choose
+the mode.
+
+Create a graphical user interface (GUI) for the problem, using Qt Framework.
+
+Administrator mode: The application will have a database, which holds all the movies. You must be
+able to update the database, meaning: add a new movie, delete a movie and update the information of
+a movie. Each Movie has a title, a genre, a year of release, a number of likes and a trailer. The trailer is
+memorised as a link towards an online resource. The administrators will also have the option to see all
+the movies in the database.
+
+
+
+User mode: A user can create a watch list with the movies that he wants to watch. The application will
+allow the user to:
+a. See the movies in the database having a given genre (if the genre is empty, see all the
+movies), one by one. When the user chooses this option, the data of the first movie (title,
+genre, year of release, number of likes) is displayed and the trailer is played in the browser.
+b. If the user likes the trailer, he/she can choose to add the movie to his/her watch list.
+c. If the trailer is not satisfactory, the user can choose not to add the movie to the watch list
+and to continue to the next. In this case, the information corresponding to the next movie is
+shown and the user is again offered the possibility to add it to the watch list. This can
+continue as long as the user wants, as when arriving to the end of the list of movies with the
+given genre, if the user chooses next, the application will again show the first movie.
+d. Delete a movie from the watch list, after the user watched the movie. When deleting a
+movie from the watch list, the user can also rate the movie (with a like), and in this case, the
+likes of the movie in the repository will be increased.
+e. See the watch list.
+
+* Store your data in a text file. When the program starts, the entities in the database (file) will be
+read. The modifications made during the execution of the application should be stored in the file.
+For this feature, use the iostream library. Create insertion and extraction operators for your
+entities and use these when reading/writing to files or console.
+
+* Use exceptions to signal errors:
+- from the repository;
+- validation errors – validate your entities using Validator classes;
+- create your own exception classes.
+Validate your input data.
+
+* Depending on your assignment, store your: movie watch list in a file. When the application starts, the user should 
+choose the type of file (CSV or HTML)(Inheritance and Polymorphism).
+Depending on this type, the application should save the list in the correct format. 
+
+* Displaying the list means opening the saved file (csv or html) with the correct application:
+- CSV file – with Notepad, Notepad++, Microsoft Excel or OpenOffice Calc
+- HTML file – with a browser
+
+* Add a multiple undo and redo functionality for the operations “add”, “remove”, “update” in
+your repository. Implement this functionality using inheritance and polymorphism. You will
+have an “Undo” and “Redo” buttons on your GUI
+
+* Create a new window which presents the contents of your: movie watch list.
